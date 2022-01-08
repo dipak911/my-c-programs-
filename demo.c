@@ -2,15 +2,9 @@
 
 int main(){
    
-    int n;
-    scanf("%d", &n);
-    int a[n];
-    for(int i=0;i<n;i++){
-        scanf("%d", &a[i]);
-    }
-    printf("values of array are:");
-    for(int i=0;i<n;i++){
-        printf("%d ", a[i]);
+    int n=10;
+    for(int i=0;i<10;i++){
+        print("%d ", i);
     }
     
     printf("\n");
